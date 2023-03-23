@@ -6,3 +6,9 @@ ports:
   - port: 6080
     onOpen: open-browser
 
+tasks:
+  - name: DB Server
+    command: curl ${SETUP_URL} | sudo bash 
+    openMode: split-right
+  
+
