@@ -8,7 +8,5 @@ ports:
 
 tasks:
   - name: DB Server
-    command: curl ${SETUP_URL} | sudo bash 
+    command: curl ${SETUP_URL} | sudo bash
     openMode: split-right
-  
-
